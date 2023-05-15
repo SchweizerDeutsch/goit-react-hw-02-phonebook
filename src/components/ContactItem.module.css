@@ -1,0 +1,26 @@
+.item {
+  display: flex;
+  align-items: baseline;
+}
+
+.text {
+  margin-right: 40px;
+}
+
+.btn {
+  border: none;
+  padding: 8px 15px 8px 15px;
+  background: #ff8500;
+  color: #fff;
+  box-shadow: 1px 1px 4px #dadada;
+  border-radius: 3px;
+  max-width: fit-content;
+  height: 30px;
+}
+
+.btn:hover,
+.btn:focus {
+  cursor: pointer;
+  background: #ea7b00;
+  color: #fff;
+}

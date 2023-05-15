@@ -1,0 +1,22 @@
+.label {
+  display: block;
+  margin: 0px 0px 15px 0px;
+  margin-left: 40px;
+}
+
+.input {
+  box-sizing: border-box;
+  border: 1px solid #c2c2c2;
+  box-shadow: 1px 1px 4px #ebebeb;
+  border-radius: 3px;
+  padding: 7px;
+  outline: none;
+  margin-bottom: 10px;
+  max-width: 200px;
+  margin-left: 40px;
+}
+
+.input:hover,
+.input:focus {
+  border: 1px solid #0c0;
+}
